@@ -4,29 +4,37 @@ font-family: 'Marck Script', cursive;
 font-family: 'Neonderthaw', cursive;
 font-family: 'Satisfy', cursive; */
 
-.full{
-    background-image: url('./images/background.jpg');
-}
+
 .head{
     display: flex;
-    justify-content: space-around;
 }
 
+.heading{
+    margin-top: 0;
+    
+}
 #heading{
     font-family: 'Satisfy', cursive;
     color: blue;
-    font-size: 50px;
+    font-size: 60px;
+    margin-top: 0;
+    word-wrap: break-word;
 }
 
 #subheading{
     font-family: 'Marck Script', cursive;
+    margin-top: 0;
     
 }
 
 .user{
     margin-top: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 .button{
     background-color: blue;
     color: white;
+    font-size: 20px;
 }
