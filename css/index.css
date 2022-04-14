@@ -3,15 +3,31 @@
 font-family: 'Marck Script', cursive;
 font-family: 'Neonderthaw', cursive;
 font-family: 'Satisfy', cursive; */
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+.container{
+    background-image: url('../images/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: center center;
+    margin: 0;
+    background-size: 100% ;
+    /* overflow: hidden;
+    display: block; */
+    
+ } 
 
-
-.head{
+.heads{
     display: flex;
+    
 }
 
 .heading{
     margin-top: 0;
-    
+    position: absolute;
+    left: 0;   
 }
 #heading{
     font-family: 'Satisfy', cursive;
@@ -45,7 +61,7 @@ font-family: 'Satisfy', cursive; */
     left:50%;
     margin-left:-100px;
 }
-.postbtn{
+.trigger{
     font-size: 20px;
     background-color: orange;
 }
