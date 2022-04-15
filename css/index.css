@@ -47,7 +47,8 @@ font-family: 'Satisfy', cursive; */
     margin-top: 20px;
     position: absolute;
     top: 0;
-    right: 0;
+    right: 20px;
+
 }
 .button{
     background-color: blue;
@@ -86,4 +87,14 @@ font-family: 'Satisfy', cursive; */
     color: white;
     align-content: center;
     margin: auto;
+}
+
+#largebtn{
+    width: 400px;
+    height: 40px;
+}
+
+#largebtn1{
+    width: 400px;
+    height: 40px;
 }
