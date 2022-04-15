@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Marck+Script&family=Neonderthaw&family=Satisfy&display=swap');
+/* font-family: 'Dongle', sans-serif;
+font-family: 'Marck Script', cursive;
+font-family: 'Neonderthaw', cursive;
+font-family: 'Satisfy', cursive; */
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+.container{
+    background-color: orange;
+}
+
+.heads{
+    display: flex;
+    
+}
+
+.heading{
+    margin-top: 0;
+    position: absolute;
+    left: 0;   
+}
+#heading{
+    font-family: 'Satisfy', cursive;
+    color: blue;
+    font-size: 60px;
+    margin-top: 0;
+    word-wrap: break-word;
+}
+
+#subheading{
+    font-family: 'Marck Script', cursive;
+    margin-top: 0;
+    
+}
+
+.user{
+    margin-top: 20px;
+    position: absolute;
+    top: 0;
+    right: 20px;
+
+}
+.button{
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+}
+
+.centerclass{
+    text-align: center;
+    
+}
+
+.createbtn{
+    background-color: green;
+    color: white;
+    align-content: center;
+    margin: auto;
+}
+
+#largebtn{
+    width: 400px;
+    height: 40px;
+}
+
+#largebtn1{
+    width: 400px;
+    height: 40px;
+}
