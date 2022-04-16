@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Marck+Script&family=Neonderthaw&family=Satisfy&display=swap');
+/* font-family: 'Dongle', sans-serif;
+font-family: 'Marck Script', cursive;
+font-family: 'Neonderthaw', cursive;
+font-family: 'Satisfy', cursive; */
+
+.heads{
+    display: flex;
+    
+}
+
+.heading{
+    margin-top: 0;
+    position: absolute;
+    left: 0;   
+}
+#heading{
+    font-family: 'Satisfy', cursive;
+    color: blue;
+    font-size: 60px;
+    margin-top: 0;
+    word-wrap: break-word;
+}
+
+#subheading{
+    font-family: 'Marck Script', cursive;
+    margin-top: 0;
+    
+}
+
+.user{
+    margin-top: 20px;
+    position: absolute;
+    top: 0;
+    right: 20px;
+
+}
+.button{
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+}
+
+#titleText{
+    height: 30px;
+    width: 500px;
+}
+
+#contentText{
+    height: 500px;
+    width: 700px;
+}
+
+.centerclass{
+    text-align: center;
+    
+}
+
+.createbtn{
+    background-color: green;
+    color: white;
+    align-content: center;
+    margin: auto;
+}
+
+#largebtn{
+    width: 400px;
+    height: 40px;
+}
+
+#largebtn1{
+    width: 400px;
+    height: 40px;
+}
+
+.notamem{
+    margin-top: 20px;
+}
+.area{
+    margin-top: 150px;
+}
+
+.theTitle{
+    text-align: center;
+}
+
+.userEdit{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.inputText{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Text1{
+    height: 400px;
+    width: 1100px;
+    border: none;
+    text-align: justify;
+}
+
+.es{
+    background-color: #FA1DAD;
+    color: white;
+}
+
+.likeBlog{
+    width: 100px;
+    background-color: #FA1DAD;
+    color: white;
+    margin-top: 20px;
+}
+
+#userComments{
+    width: 500px;
+    height: 100px;
+    margin-top: 20px;
+}
+
+#liked{
+    margin-top: 10px;
+}
+.commentSection{
+    margin-top: 20px;
+}
+
+.bggrey{
+    width: 45%; 
+    background-color: darkgray; 
+    height: auto; 
+    padding: 10px ;
+    
+}
+
+#addEventNames{
+    margin: 20px 20px 20px 20px;
+    background-color: white;
+    
+}
