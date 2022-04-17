@@ -107,6 +107,7 @@ font-family: 'Yellowtail', cursive;*/
 .es{
     background-color: #FA1DAD;
     color: white;
+    box-shadow:0 4px 10px 0 rgba(17, 4, 63, 0.2),0 4px 20px 0 rgba(79, 19, 97, 0.19);
 }
 
 .likeBlog{
@@ -114,6 +115,7 @@ font-family: 'Yellowtail', cursive;*/
     background-color: #FA1DAD;
     color: white;
     margin-top: 20px;
+    box-shadow:0 4px 10px 0 rgba(17, 4, 63, 0.2),0 4px 20px 0 rgba(79, 19, 97, 0.19);
 }
 
 #userComments{

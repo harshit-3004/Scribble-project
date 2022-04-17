@@ -3,10 +3,7 @@
 font-family: 'Marck Script', cursive;
 font-family: 'Neonderthaw', cursive;
 font-family: 'Satisfy', cursive; */
-/* *{
-    margin: 0;
-    padding: 0;
-} */
+
 .container{
     background-image: url('../images/background.jpg');
     background-repeat: no-repeat;
@@ -14,8 +11,7 @@ font-family: 'Satisfy', cursive; */
     position: center center;
     margin: 0;
     background-size: 100% ;
-    /* overflow: hidden;
-    display: block; */
+    
     
  } 
 
