@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Dongle&family=Marck+Script&family=Neonderthaw&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle&family=Marck+Script&family=Neonderthaw&family=Satisfy&family=Yellowtail&display=swap');
 /* font-family: 'Dongle', sans-serif;
 font-family: 'Marck Script', cursive;
 font-family: 'Neonderthaw', cursive;
-font-family: 'Satisfy', cursive; */
+font-family: 'Satisfy', cursive; 
+font-family: 'Yellowtail', cursive;*/
 
 .heads{
     display: flex;
@@ -80,7 +82,7 @@ font-family: 'Satisfy', cursive; */
     margin-top: 150px;
 }
 
-.theTitle{
+#theTitle{
     text-align: center;
 }
 
@@ -98,8 +100,8 @@ font-family: 'Satisfy', cursive; */
 .Text1{
     height: 400px;
     width: 1100px;
-    border: none;
     text-align: justify;
+    display: none;
 }
 
 .es{
@@ -142,3 +144,6 @@ font-family: 'Satisfy', cursive; */
     cursor: pointer;
 }
 
+#blogtext{
+    text-align: justify;
+}

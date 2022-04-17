@@ -15,7 +15,37 @@ function postLiked(){
     else{
         document.getElementById("commentCount").innerHTML=like + " people have liked this!";
     }
-    
-    
 }
 
+var editbtn = 0;
+function edit(){
+    if(editbtn==0){
+        document.getElementById("es").innerHTML = 'Save <i class="fa fa-floppy-o" aria-hidden="true"></i>';
+        var b = document.getElementById("blogtext").innerHTML;
+        document.getElementById("textreadonly").style.display="block"; 
+        document.getElementById("textreadonly").innerHTML = b;
+        document.getElementById("blogtext").style.display= "none";
+        var d = document.getElementById('theTitle').innerHTML;
+        document.getElementById('titlearea').innerHTML = d;
+        document.getElementById('theTitle').style.display = "none";
+        document.getElementById('titlearea').style.display = "block";
+        editbtn = 1;
+    }
+    else{
+        
+        var c = document.getElementById('textreadonly').value;
+        document.getElementById('blogtext').innerHTML = c;
+        document.getElementById("es").innerHTML = 'Edit <i class="fa fa-edit"></i>';
+        document.getElementById('textreadonly').style.display="none";
+        document.getElementById('blogtext').style.display = "block";
+        var a = document.getElementById('titlearea').value;
+        document.getElementById('theTitle').innerHTML = a;
+        document.getElementById('theTitle').style.display = "block";
+        document.getElementById('titlearea').style.display = 'none';
+        editbtn = 0;
+    }
+        
+        
+    
+
+}
