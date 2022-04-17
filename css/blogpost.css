@@ -139,6 +139,7 @@ font-family: 'Satisfy', cursive; */
 .trash img{
   height: 20px;
   width: 20px;
+  cursor: pointer;
 }
 
 #fivth{
@@ -149,4 +150,43 @@ font-family: 'Satisfy', cursive; */
     position:absolute;
     right:15px;
     bottom:15px;
+}
+
+
+#linkModal{
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#yesnobtns{
+    left: 30%;
+    text-align: center;
+}
+#no
+{
+    font-family: 'Ubuntu Condensed';
+    background-color: green;
+    color: white;
+    border-color: transparent;
+    padding: 5px 10px;
+    width: 150px;
+    position: relative;
+    left: 90px;
+}
+
+#deleteyesno{
+    text-align: center;
+    text-decoration: bold;
+}
+
+#yes
+{
+    background-color: red;
+    color: white;
+    border-color: transparent;
+    padding: 5px 10px;
+    width: 150px;
+    position: absolute;
+    left: 50px;
 }

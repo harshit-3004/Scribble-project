@@ -1,7 +1,7 @@
 function addComments(id){
     var addEventName = id.value +'<br>';
     var a = document.getElementById('userComments');
-    document.getElementById('addEventNames').innerHTML += "<p style='background-color:white; margin-top:20px; padding-top:15px; height:40px;'>"+addEventName+'</p>';          
+    document.getElementById('addEventNames').innerHTML += "<p style='background-color:white; margin-top:20px; padding-top:15px; height:auto;'>"+addEventName+'</p>';          
     a.value=a.defaultValue;
 }
 //Enter your code here

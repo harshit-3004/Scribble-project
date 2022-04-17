@@ -102,3 +102,9 @@ font-family: 'Satisfy', cursive; */
 .notamem{
     margin-top: 20px;
 }
+
+#linkModal{
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
